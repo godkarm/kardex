@@ -23,11 +23,10 @@
     color: gray;
 }
 .fondo-login{
-    background-color: rgb(0, 0, 0, 0.938);
+    background-color: rgba(0, 0, 0, 0.938);
     min-height: 100vh;
     padding-top: 50px;
 }
-
 .login{
     color: white;
     margin: auto;
