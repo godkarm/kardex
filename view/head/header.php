@@ -1,5 +1,5 @@
 <?php
-    require_once("../kardex/view/head/head.php");
+    require_once("../head/head.php");
 ?>
 
 
@@ -23,8 +23,8 @@
                         <a class="nav-link" href="#">Contactanos</a>
                     </li>
                     </ul>
-                    <a href="/kardex/view/home/login.php" class="boton">Iniciar Session</a>
-                    <a href="/kardex/view/home/signup.php" class="boton">Registrate</a>
+                    <a href="../../view/home/login.php" class="boton">Iniciar Session</a>
+                    <a href="../../view/home/signup.php" class="boton">Registrate</a>
                 </div>
             </div>
         </nav>

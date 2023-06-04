@@ -1,5 +1,5 @@
 <?php
-    require_once("/xampp/htdocs/kardex/view/head/head.php");
+    require_once("../kardex/view/head/head.php");
 ?>
 
 <div class="fondo-login">
@@ -36,5 +36,5 @@
 
 
 <?php
-    require_once("/xampp/htdocs/kardex/view/head/footer.php");
+    require_once("../kardex/view/head/footer.php");
 ?>
