@@ -1,9 +1,9 @@
 <?php
     class db{
         private $host="localhost";
-        private $dbname="login";
+        private $dbname="kardex";
         private $user="root";
-        private $password="";
+        private $password="passw0rd";
         public function conexion(){
             try {
                 $PDO = new PDO("mysql:host=".$this->host.";dbname=".$this->dbname,$this->user,$this->password);

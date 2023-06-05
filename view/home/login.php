@@ -1,5 +1,5 @@
 <?php
-    require_once("c://xampp/htdocs/login/view/head/head.php");
+    require_once("../kardex/view/head/head.php");
     if(!empty($_SESSION['usuario'])){
         header("Location:panel_control.php");
     }
@@ -7,12 +7,12 @@
 
 <div class="fondo-login">
     <div class="icon">
-        <a href="/login/index.php">
+        <a href="/kardex/index.php">
             <i class="fa-solid fa-shield-dog dog-icon"></i>
         </a>
     </div>
     <div class="titulo">
-        Inicia sesion en DogCom
+        Inicia sesion en Kardex
     </div>
     <form action="verificar.php" method="POST" class="col-3 login" autocomplete="off">
         <div class="mb-3">
@@ -43,5 +43,5 @@
 </div>
 
 <?php
-    require_once("c://xampp/htdocs/login/view/head/footer.php");
+    require_once("../kardex/view/head/footer.php");
 ?>

@@ -3,7 +3,7 @@
         private $MODEL;
         public function __construct()
         {
-            require_once("c://xampp/htdocs/login/model/homeModel.php");
+            require_once("../kardex/model/homeModel.php");
             $this->MODEL = new homeModel();
         }
         public function guardarUsuario($correo,$contraseña){
