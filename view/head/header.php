@@ -1,5 +1,5 @@
 <?php
-    require_once("../kardex/view/head/header.php");
+    require_once("../kardex/view/head/head.php");
 ?>
 
 <div class="fondo_menu">
