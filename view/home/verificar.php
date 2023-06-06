@@ -1,5 +1,5 @@
 <?php
-    require_once("../kardex/controller/homeController.php");
+    require_once("/var/www/html/kardex/controller/homeController.php");
     session_start();
     $obj = new homeController();
     $correo = $obj->limpiarcorreo($_POST['correo']);

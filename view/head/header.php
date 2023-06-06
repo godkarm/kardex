@@ -1,5 +1,5 @@
 <?php
-    require_once("../kardex/view/head/head.php");
+    require_once("/var/www/html/kardex/view/head/head.php");
 ?>
 
 <div class="fondo_menu">
@@ -39,7 +39,7 @@
                             <a class="nav-link" href="#">Session de recursos</a>
                         </li>
                     </ul>
-                    <a href="../../view/home/logout.php" class="boton">Cerrar Sesion</a>
+                    <a href="/var/www/html/kardex/view/home/logout.php" class="boton">Cerrar Sesion</a>
                 </div>
                 <?php endif ?>
 

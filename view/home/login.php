@@ -1,5 +1,5 @@
 <?php
-    require_once("../kardex/view/head/head.php");
+    require_once("/var/www/html/kardex/view/head/head.php");
     if(!empty($_SESSION['usuario'])){
         header("Location:panel_control.php");
     }
@@ -43,5 +43,5 @@
 </div>
 
 <?php
-    require_once("../kardex/view/head/footer.php");
+    require_once("/var/www/html/kardex/view/head/footer.php");
 ?>

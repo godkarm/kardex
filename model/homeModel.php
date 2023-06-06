@@ -3,7 +3,7 @@
         private $PDO;
         public function __construct()
         {
-            require_once("../kardex/config/db.php");
+            require_once("/var/www/html/kardex/config/db.php");
             $pdo = new db();
             $this->PDO = $pdo->conexion();
         }
